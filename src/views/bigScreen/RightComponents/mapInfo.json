@@ -1,0 +1,1048 @@
+{
+    "formColumns": {
+        "menji": [
+            {
+                "rows": [
+                    {
+                        "label": "司机:",
+                        "prop": "driverName",
+                        "labelStyle": "width:60px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "计划:",
+                        "prop": "planCode",
+                        "labelStyle": "width:60px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "位置:",
+                        "prop": "location",
+                        "labelStyle": "width:60px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "所在区域:",
+                        "prop": "areaName",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "门机效率(吨/时):",
+                        "prop": "menJiXiaoLv",
+                        "labelStyle": "width:110px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "任务起始时间:",
+                        "prop": "startTime",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "累计作业吨:",
+                        "prop": "sumMjTon",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "门机编号:",
+                        "prop": "loaderCode",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            }
+        ],
+        "ship": [
+            {
+                "label": "船舶名称:",
+                "prop": "shipName",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "当前关联计划:",
+                "prop": "relPlanCode",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "舱位吨信息:",
+                "prop": "cabinAmount",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "泊位:",
+                "prop": "berthName",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "经纬度:",
+                "prop": "shipLocation",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "dyc": [
+            {
+                "rows": [
+                    {
+                        "label": "车牌号:",
+                        "prop": "carPlate",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "速度:",
+                        "prop": "speed",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "计划编码:",
+                        "prop": "planCode",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "累计圈数:",
+                        "prop": "sumCount",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "设备经纬度:",
+                        "prop": "location",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "累计吨数:",
+                        "prop": "sumTon",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "装车设备:",
+                        "prop": "loaderName",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "当前圈数:",
+                        "prop": "runCount",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "作业货垛:",
+                        "prop": "positionName",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "当前吨数:",
+                        "prop": "jweight",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "任务起始时间:",
+                        "prop": "startTime",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "平均吨数:",
+                        "prop": "avgTon",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "label": "异常情况:",
+                "prop": "workWarning",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "zzc": [
+            {
+                "rows": [
+                    {
+                        "label": "司机:",
+                        "prop": "carPlate",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "计划:",
+                        "prop": "planCode",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "位置:",
+                        "prop": "location",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "已装车数:",
+                        "prop": "sumCount",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "label": "已装吨数:",
+                "prop": "sumMjTon",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "person": [
+            {
+                "rows": [
+                    {
+                        "label": "姓名:",
+                        "prop": "carPlate",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "计划货垛:",
+                        "prop": "unloadPositionName",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "计划:",
+                        "prop": "planCode",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "作业类型:",
+                        "prop": "",
+                        "text": "装卸",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "label": "位置:",
+                "prop": "location",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "速度:",
+                "prop": "speed",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "bangfang": [
+            {
+                "label": "磅房编号:",
+                "prop": "weightRoomCode",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "当前关联计划:",
+                "prop": "relPlanCode",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "point": [
+            {
+                "rows": [
+                    {
+                        "label": "司机:",
+                        "prop": "num",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "所在计划:",
+                        "prop": "num",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "节点:",
+                        "prop": "num",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "位置:",
+                        "prop": "location",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "皮重:",
+                        "prop": "num",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "过恒设备:",
+                        "prop": "num",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "毛重:",
+                        "prop": "mweight",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "净重:",
+                        "prop": "jweight",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "速度:",
+                        "prop": "speed",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "停留时长:",
+                        "prop": "num",
+                        "labelStyle": "width:100px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            }
+        ],
+        "yardpos": [
+            {
+                "label": "货垛编号:",
+                "prop": "positionCode",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "货物类别:",
+                "prop": "goodsTypeName",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "当前货垛堆存吨:",
+                "prop": "goodsStock",
+                "labelStyle": "width:120px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "mjBack": [
+            {
+                "label": "司机:",
+                "prop": "driverName",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "所在计划:",
+                "prop": "planCode",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "位置:",
+                "prop": "location",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "所在区域:",
+                "prop": "areaName",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "被装车辆:",
+                "prop": "carPlate",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "门机效率:",
+                "prop": "menJiXiaoLv",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "装车时间:",
+                "prop": "loadStartEndTime",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "装车时长(分钟):",
+                "prop": "loadMinute",
+                "labelStyle": "width:110px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "zcBack": [
+            {
+                "label": "司机:",
+                "prop": "driverName",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "所在计划:",
+                "prop": "planCode",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "被装车辆:",
+                "prop": "carPlate",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "装车时间:",
+                "prop": "loadStartEndTime",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "装车时长(分钟):",
+                "prop": "loadMinute",
+                "labelStyle": "width:110px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "perBack": [
+            {
+                "label": "组别:",
+                "prop": "groupName",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "所在计划:",
+                "prop": "planCode",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "速度:",
+                "prop": "speed",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "作业时长:",
+                "prop": "workTime",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "备注:",
+                "prop": "workRemark",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "points3": [
+            {
+                "label": "司机:",
+                "prop": "driverName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "所在计划:",
+                "prop": "planCode",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "位置:",
+                "prop": "location",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "节点:",
+                "prop": "pointName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "过衡设备:",
+                "prop": "pweightroomName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "rows": [
+                    {
+                        "label": "皮重(吨):",
+                        "prop": "pweight",
+                        "labelStyle": "width:80px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "速度(吨):",
+                        "prop": "speed",
+                        "labelStyle": "width:85px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "label": "停留时长:",
+                "prop": "pointWaitTime",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "points4": [
+            {
+                "label": "司机:",
+                "prop": "driverName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "所在计划:",
+                "prop": "planCode",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "位置:",
+                "prop": "location",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "节点:",
+                "prop": "pointName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "装车设备:",
+                "prop": "loaderName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "rows": [
+                    {
+                        "label": "皮重(吨):",
+                        "prop": "pweight",
+                        "labelStyle": "width:80px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "速度(km/h):",
+                        "prop": "speed",
+                        "labelStyle": "width:85px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "label": "停留时长:",
+                "prop": "pointWaitTime",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "points7": [
+            {
+                "label": "司机:",
+                "prop": "driverName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "所在计划:",
+                "prop": "planCode",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "位置:",
+                "prop": "location",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "节点:",
+                "prop": "pointName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "过衡设备:",
+                "prop": "pweightroomName",
+                "labelStyle": "width:80px",
+                "col": 12,
+                "background": true
+            },
+            {
+                "rows": [
+                    {
+                        "label": "皮重(吨):",
+                        "prop": "pweight",
+                        "labelStyle": "width:80px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "毛重(吨):",
+                        "prop": "mweight",
+                        "labelStyle": "width:80px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "净重(吨):",
+                        "prop": "jweight",
+                        "labelStyle": "width:80px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "速度(km/h):",
+                        "prop": "speed",
+                        "labelStyle": "width:85px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "label": "停留时长:",
+                "prop": "pointWaitTime",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            }
+        ],
+        "points9": [
+            {
+                "label": "司机:",
+                "prop": "driverName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "所在计划:",
+                "prop": "planCode",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "位置:",
+                "prop": "location",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "节点:",
+                "prop": "pointName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "label": "过衡设备:",
+                "prop": "pweightroomName",
+                "labelStyle": "width:80px",
+                "col": 24,
+                "background": true
+            },
+            {
+                "rows": [
+                    {
+                        "label": "皮重(吨):",
+                        "prop": "pweight",
+                        "labelStyle": "width:80px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "毛重(吨):",
+                        "prop": "mweight",
+                        "labelStyle": "width:80px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "label": "净重(吨):",
+                        "prop": "jweight",
+                        "labelStyle": "width:80px",
+                        "col": 12,
+                        "background": true
+                    },
+                    {
+                        "label": "速度(km/h):",
+                        "prop": "speed",
+                        "labelStyle": "width:85px",
+                        "col": 12,
+                        "background": true
+                    }
+                ]
+            },
+            {
+                "label": "停留时长:",
+                "prop": "pointWaitTime",
+                "labelStyle": "width:100px",
+                "col": 24,
+                "background": true
+            }
+        ]
+    },
+    "tableColumns": {
+        "menji": [
+            {
+                "title": "序号",
+                "dataIndex": "index",
+                "key": "index"
+            },
+            {
+                "title": "被装车牌号",
+                "dataIndex": "carPlate",
+                "labelStyle": "color: #33E8FD",
+                "key": "carPlate"
+            },
+            {
+                "title": "开始时间",
+                "dataIndex": "startTime",
+                "key": "startTime"
+            },
+            {
+                "title": "结束时间",
+                "dataIndex": "endTime",
+                "key": "endTime"
+            },
+            {
+                "title": "",
+                "dataIndex": "back",
+                "key": "address"
+            }
+        ],
+        "ship": [],
+        "dyc": [
+            {
+                "title": "圈数",
+                "dataIndex": "runCount",
+                "key": "runCount"
+            },
+            {
+                "title": "开始时间",
+                "dataIndex": "startTime",
+                "key": "startTime"
+            },
+            {
+                "title": "结束时间",
+                "dataIndex": "endTime",
+                "key": "endTime"
+            },
+            {
+                "title": "",
+                "dataIndex": "back",
+                "key": "address"
+            }
+        ],
+        "zzc": [
+            {
+                "title": "序号",
+                "dataIndex": "index",
+                "key": "index"
+            },
+            {
+                "title": "被装车牌号",
+                "dataIndex": "carPlate",
+                "key": "carPlate"
+            },
+            {
+                "title": "开始时间",
+                "dataIndex": "startTime",
+                "key": "startTime"
+            },
+            {
+                "title": "结束时间",
+                "dataIndex": "endTime",
+                "key": "endTime"
+            },
+            {
+                "title": "",
+                "dataIndex": "back",
+                "key": "address"
+            }
+        ],
+        "person": [
+            {
+                "title": "序号",
+                "dataIndex": "index",
+                "key": "index"
+            },
+            {
+                "title": "开始时间",
+                "dataIndex": "startTime",
+                "key": "startTime"
+            },
+            {
+                "title": "结束时间",
+                "dataIndex": "endTime",
+                "key": "endTime"
+            },
+            {
+                "title": "",
+                "dataIndex": "back",
+                "key": "address"
+            }
+        ],
+        "bangfang": [
+            {
+                "title": "车牌号",
+                "dataIndex": "carPlate",
+                "key": "carPlate"
+            },
+            {
+                "title": "重量",
+                "dataIndex": "changeTon",
+                "key": "changeTon"
+            },
+            {
+                "title": "时间",
+                "dataIndex": "changeTime",
+                "key": "changeTime"
+            }
+        ],
+        "point": [],
+        "yardpos": [
+            {
+                "title": "车牌号",
+                "dataIndex": "carPlate",
+                "key": "carPlate"
+            },
+            {
+                "title": "重量",
+                "dataIndex": "changeTon",
+                "key": "changeTon"
+            },
+            {
+                "title": "时间",
+                "dataIndex": "changeTime",
+                "key": "changeTime"
+            }
+        ],
+        "dyBack": [
+            {
+                "title": "点位",
+                "dataIndex": "sort",
+                "width": 80,
+                "key": "sort"
+            },
+            {
+                "title": "位置",
+                "dataIndex": "location",
+                "key": "location"
+            },
+            {
+                "title": "点位类型",
+                "width": 100,
+                "dataIndex": "type",
+                "key": "type"
+            },
+            {
+                "title": "时间",
+                "dataIndex": "arrivalTimeStr",
+                "key": "arrivalTimeStr"
+            }
+        ]
+    },
+    "dialogTitles": {
+        "menji": "门机",
+        "ship": "安妮女王号",
+        "dyc": "倒运车",
+        "person": "人员",
+        "zzc": "装载机",
+        "bangfang": "磅房",
+        "point": "冀C29087",
+        "yardpos": "货垛"
+    }
+}

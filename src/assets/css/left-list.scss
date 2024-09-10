@@ -1,0 +1,53 @@
+.title_box {
+    margin: 0 1rem;
+}
+
+.title_img {
+    width: 32px;
+}
+
+.title_font {
+    // font-family: Alibaba PuHuiTi;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E6FEFF;
+    font-style: italic;
+    padding: 7px 10px;
+    width: 100%;
+    background-size: cover;
+    margin-left: 8px;
+    background-image: url("@/assets/images/left/left_title_box.png");
+    position: relative;
+}
+
+.sub_font {
+    // font-family: AlibabaPuHuiTiR;
+    font-weight: 400;
+    font-size: 10px;
+    color: #4784BB;
+    float: right;
+    position: absolute;
+    right: 12px;
+    bottom: 6px;
+}
+
+:deep() .ant-list-item {
+    background-image: linear-gradient(to right, #20449b 0%, transparent 100%);
+    border: 1px solid #41c3fa !important;
+    margin: 0.8rem 1rem;
+    padding: 0.5rem;
+    border-radius: 2px;
+
+    .ant-list-item-meta .ant-list-item-meta-avatar {
+        margin-inline-end: 9px
+    }
+
+    .ant-list-item-action {
+        margin-inline-start: 0
+    }
+
+    .ant-list-item-action>li {
+        padding: 0 0 0 8px;
+    }
+
+}
