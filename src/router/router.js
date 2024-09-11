@@ -62,7 +62,7 @@ const router = createRouter({
 
 const TokenKey = 'Admin-Token'
 router.beforeEach((to, from, next) => {
-  document.title = `智慧港口管理平台`;
+  document.title = `demo`;
   const token = localStorage.getItem(TokenKey)
   const permiss = usePermissStore();
   if (!token && to.path !== "/login") {
