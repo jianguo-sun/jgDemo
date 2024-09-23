@@ -1,0 +1,5 @@
+proxy： 拦截操作对象的基本操作   set, get , setPrototypeOF, OwnPropertyKeys(for in)
+        函数本质就是对象（多call, construct）
+
+
+defineProperty: 对象的基本方法之一， vue2中 拦截方式 在数组和原型之间 加入自己创建的原型对象（push, shift, unshift）
