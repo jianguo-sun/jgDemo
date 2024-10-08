@@ -1,0 +1,18 @@
+性能优化
+一.性能指标
+fp (首屏渲染)  
+fcp(首屏内容渲染),
+fmp(first meaningful paint), 
+lcp(最大内容渲染), 
+cls(累计布局偏移: Cumulative Layout Shift , 基于mutatuion observer),
+tti(交互时间)
+使用浏览器lighthouse 获取指标信息   web vitals
+
+
+二.异常监控
+内存溢出,白屏
+资源加载异常(image图片,字体资源)
+js执行异常 
+异步处理异常
+网络异常
+
